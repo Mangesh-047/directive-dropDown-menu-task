@@ -17,6 +17,7 @@ export class DropDownDirective {
 
     console.log();
 
+    ele.classList.toggle('show')
 
     ele.nextElementSibling?.classList.toggle('show')
 
